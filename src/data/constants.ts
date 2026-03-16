@@ -347,6 +347,14 @@ export const SIDE_PROJECTS: SideProject[] = [
       github: "https://github.com/Cong0327/stockProject",
       status: "in-progress",  // "in-progress" | "completed"
     },
+    {
+      title: "LostArk Open API 디스코드 봇",
+      description: "로스트아크 Open API를 활용한 Discord 봇. 캐릭터 정보 조회, 경매장·거래소 시세 검색, 보석 시세 평가 등의 슬래시 커맨드를 제공하며, node-cache 기반 API 응답 캐싱으로 호출 효율을 최적화했습니다.",
+      tech: ["TypeScript", "Node.js", "discord.js", "Axios", "node-cache"],
+      github: "https://github.com/Cong0327/LA_Discord_Bot.git",
+      status: "in-progress",
+    },
+
   // --- 템플릿 끝 ---
 ];
 
