@@ -65,35 +65,19 @@ export const KEY_RESULTS: Stat[] = [
 export const TECH_STACK = [
   {
     title: "Language & Framework",
-    items: [
-      { name: "PHP (Laravel)", level: 90 },
-      { name: "Python (FastAPI)", level: 80 },
-    ],
+    items: ["PHP (Laravel)", "Python (FastAPI)", "Java (Spring Boot)"],
   },
   {
     title: "Database",
-    items: [
-      { name: "Oracle", level: 85 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "MySQL", level: 80 },
-    ],
+    items: ["Oracle", "PostgreSQL", "MySQL", "Redis"],
   },
   {
     title: "Infrastructure / DevOps",
-    items: [
-      { name: "MSA Architecture", level: 80 },
-      { name: "API Gateway", level: 85 },
-      { name: "Docker", level: 80 },
-      { name: "NCP (Naver Cloud)", level: 75 },
-    ],
+    items: ["MSA Architecture", "API Gateway", "Docker", "NCP (Naver Cloud)"],
   },
   {
     title: "Expertise",
-    items: [
-      { name: "대외계 API 연동 (금융/공공)", level: 95 },
-      { name: "데이터 마이그레이션", level: 90 },
-      { name: "비즈니스 로직 자동화", level: 85 },
-    ],
+    items: ["대외계 API 연동 (금융/공공)", "데이터 마이그레이션", "비즈니스 로직 자동화"],
   },
 ];
 

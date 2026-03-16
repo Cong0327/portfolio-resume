@@ -22,24 +22,14 @@ export default function TechStack() {
               <h3 className="mb-5 text-lg font-semibold text-accent-light">
                 {cat.title}
               </h3>
-              <div className="space-y-4">
+              <div className="flex flex-wrap gap-2">
                 {cat.items.map((item) => (
-                  <div key={item.name}>
-                    <div className="mb-1 flex items-center justify-between">
-                      <span className="text-sm font-medium text-navy-200">
-                        {item.name}
-                      </span>
-                      <span className="text-xs text-navy-500">
-                        {item.level}%
-                      </span>
-                    </div>
-                    <div className="h-2 overflow-hidden rounded-full bg-navy-800">
-                      <div
-                        className="h-full rounded-full bg-gradient-to-r from-accent to-accent-light transition-all duration-1000"
-                        style={{ width: `${item.level}%` }}
-                      />
-                    </div>
-                  </div>
+                  <span
+                    key={item}
+                    className="rounded-lg border border-navy-700 bg-navy-900/80 px-4 py-2 text-sm font-medium text-navy-200 transition-colors hover:border-accent/40 hover:text-white"
+                  >
+                    {item}
+                  </span>
                 ))}
               </div>
             </div>
