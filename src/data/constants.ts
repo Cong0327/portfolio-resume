@@ -316,15 +316,38 @@ export interface SideProject {
 }
 
 export const SIDE_PROJECTS: SideProject[] = [
-  // 아래 예시를 수정하거나 새 프로젝트를 추가하세요
+  // ============================================================
+  // 사이드 프로젝트 추가 가이드
+  // ============================================================
+  // 아래 템플릿을 복사 → 주석 해제 → 값 수정 후 저장하면 반영됩니다.
+  // 여러 개 추가 시 중괄호 블록을 콤마(,)로 구분해서 나열하세요.
+  //
+  // 필수 필드: title, description, tech, status
+  // 선택 필드: url (라이브 데모), github (저장소 링크)
+  //   - url만 있으면 → "Live Demo" 버튼만 표시
+  //   - github만 있으면 → "GitHub" 버튼만 표시
+  //   - 둘 다 있으면 → 두 버튼 모두 표시
+  //   - 둘 다 없으면 → 버튼 없이 카드만 표시
+  //
+  // --- 템플릿 (복사용) ---
   // {
   //   title: "프로젝트 이름",
-  //   description: "간단한 설명",
-  //   tech: ["Python", "FastAPI"],
-  //   url: "https://example.com",
-  //   github: "https://github.com/Cong0327/repo-name",
-  //   status: "in-progress",
+  //   description: "프로젝트에 대한 간단한 설명을 적어주세요.",
+  //   tech: ["Python", "FastAPI", "PostgreSQL"],
+  //   url: "https://배포된-주소.com",
+  //   github: "https://github.com/Cong0327/저장소-이름",
+  //   status: "in-progress",  // "in-progress" | "completed"
   // },
+
+    {
+      title: "주식 차트 프로그램(데모)",
+      description: "Twelve Data API를 사용한 주식 차트",
+      tech: ["Java", "SpringBoot", "Redis", 'React', 'Typescript', "Vercel", "Railway"],
+      url: "https://stock-project-34vdck2zlx-cong0327s-projects.vercel.app/",
+      github: "https://github.com/Cong0327/stockProject",
+      status: "in-progress",  // "in-progress" | "completed"
+    },
+  // --- 템플릿 끝 ---
 ];
 
 // --- 경력 ---
