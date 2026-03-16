@@ -73,7 +73,7 @@ export const TECH_STACK = [
   },
   {
     title: "Infrastructure / DevOps",
-    items: ["MSA Architecture", "API Gateway", "Docker", "NCP (Naver Cloud)"],
+    items: ["MSA Architecture", "API Gateway", "Docker", "NCP (Naver Cloud)", "Vercel", "Railway", "AWS"],
   },
   {
     title: "Expertise",
