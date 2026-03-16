@@ -341,7 +341,7 @@ export const SIDE_PROJECTS: SideProject[] = [
 
     {
       title: "주식 차트 프로그램(데모)",
-      description: "Twelve Data API를 사용한 주식 차트",
+      description: "Twelve Data API 기반 실시간 주식 시세 조회 및 차트 시각화 웹 애플리케이션. Spring Boot 백엔드에서 API 데이터를 Redis로 캐싱하고, React 프론트엔드에서 인터랙티브 차트를 제공합니다.",
       tech: ["Java", "SpringBoot", "Redis", 'React', 'Typescript', "Vercel", "Railway"],
       url: "https://stock-project-34vdck2zlx-cong0327s-projects.vercel.app/",
       github: "https://github.com/Cong0327/stockProject",
