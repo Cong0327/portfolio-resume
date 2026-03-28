@@ -338,6 +338,13 @@ export const SIDE_PROJECTS: SideProject[] = [
       github: "https://github.com/Cong0327/LA_Discord_Bot.git",
       status: "in-progress",
     },
+    {
+      title: "Redis + Kafka 실습",
+      description: "Redis + Kafka 기반 10만 동시 접속 선착순 한정판매 시스템",
+      tech: ["Java", "Spring Boot", "Redis(Redisson)", "Kafka"],
+      github: "https://github.com/Cong0327/concurrentProcessTest",
+      status: "in-progress",
+    },
 
   // --- 템플릿 끝 ---
 ];
