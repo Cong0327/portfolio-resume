@@ -93,7 +93,7 @@ export interface Project {
   title: string;
   category: Exclude<ProjectCategory, "all">;
   period: string;
-  status: "completed" | "in-progress";
+  status: "completed" | "in-progress" | "live";
   description: string;
   details: string[];
   tech: string[];
@@ -329,7 +329,7 @@ export const SIDE_PROJECTS: SideProject[] = [
       tech: ["Java", "SpringBoot", "Redis", 'React', 'Typescript', "Vercel", "Railway"],
       url: "https://stock-project-34vdck2zlx-cong0327s-projects.vercel.app/",
       github: "https://github.com/Cong0327/stockProject",
-      status: "in-progress",  // "in-progress" | "completed"
+      status: "completed",  // "in-progress" | "completed"
     },
     {
       title: "LostArk Open API 디스코드 봇",
@@ -343,6 +343,14 @@ export const SIDE_PROJECTS: SideProject[] = [
       description: "Redis + Kafka 기반 10만 동시 접속 선착순 한정판매 시스템",
       tech: ["Java", "Spring Boot", "Redis(Redisson)", "Kafka"],
       github: "https://github.com/Cong0327/concurrentProcessTest",
+      status: "completed",
+    },
+    {
+      title: "FlightBell",
+      description: "승무원 스케줄 사진을 AI로 파싱하고 연인에게 실시간 알림을 발송하는 커플 웹 서비스. Claude Vision API로 스케줄 이미지를 자동 파싱하고, PWA 웹 푸시 및 카카오톡 메시지 API로 비행 당일 알림을 발송합니다.",
+      tech: ["Next.js", "TypeScript", "Supabase", "Prisma", "Claude API", "FCM", "NextAuth", "Vercel"],
+      url: "https://flight-bell.vercel.app",
+      github: "https://github.com/Cong0327/FlightBell",
       status: "in-progress",
     },
 
