@@ -296,7 +296,7 @@ export interface SideProject {
   tech: string[];
   url?: string;
   github?: string;
-  status: "in-progress" | "completed";
+  status: "in-progress" | "completed" | "live";
 }
 
 export const SIDE_PROJECTS: SideProject[] = [
