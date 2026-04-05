@@ -347,7 +347,7 @@ export const SIDE_PROJECTS: SideProject[] = [
     },
     {
       title: "FlightBell",
-      description: "승무원 스케줄 사진을 AI로 파싱하고 연인에게 실시간 알림을 발송하는 커플 웹 서비스. Claude Vision API로 스케줄 이미지를 자동 파싱하고, PWA 웹 푸시 및 카카오톡 메시지 API로 비행 당일 알림을 발송합니다.",
+      description: "승무원 스케줄 사진을 AI로 파싱하고 연인에게 실시간 알림을 발송하는 커플 웹 서비스. Claude Vision AI로 스케줄 이미지를 자동 파싱하고, PWA 웹&앱 푸시(Firebase) 및 카카오톡 캘린더 API로 비행 당일 알림을 발송합니다.",
       tech: ["Next.js", "TypeScript", "Supabase", "Prisma", "Claude API", "FCM", "NextAuth", "Vercel", "firebase"],
       url: "https://flight-bell.vercel.app",
       status: "live",
